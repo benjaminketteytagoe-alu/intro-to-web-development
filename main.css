@@ -1,6 +1,6 @@
 /* Removes unwanted styling from the page */
-*,
-*::before,
+
+/* *::before,
 *::after {
   box-sizing: border-box;
   padding: 0;
@@ -8,6 +8,140 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: none;
   max-width: 100%;
-}
+} */
 
 /* Write your code below this */
+.navbar {
+  width: 100%;
+  padding: 26px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 12px;
+}
+
+.hero {
+  background-image: url('images/hero.png');
+  height: 500px;
+  padding-top: 219px;
+  padding-left: 103px;
+}
+
+h1 {
+	font-size: 36px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 12px 30px;
+  background: #52647E;
+  color: white;
+  border-radius: 10px;
+}
+
+.journey {
+  background: #618379;
+  padding: 57px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+
+.journey-list {
+  display: flex;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+.journey-card {
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  color:gray;
+}
+
+.journey-image {
+  border-radius: 25px;
+  margin-bottom: 25px;
+  width: 20px
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+footer {
+  background: #333232;
+  text-align: center;
+  color: white;
+  padding: 10% 10% ;
+
+}
+
+.about-me {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.about-me h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2ca02c;
+}
+
+.about-me p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.goals {
+  background-color: lightgrey;
+  padding: 60px 20px;
+  text-align: center;
+  color: #222;
+}
+
+.goals h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2ca02c;
+}
+
+.goals ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.goals li {
+  font-size: 1.1rem;
+  margin: 15px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.goals li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  color: black;
+}
